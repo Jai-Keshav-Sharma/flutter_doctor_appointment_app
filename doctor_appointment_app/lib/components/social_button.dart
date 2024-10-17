@@ -1,8 +1,6 @@
 import 'package:hossapp/utils/config.dart';
 import 'package:flutter/material.dart';
 
-// import '../utils/config.dart';
-
 class SocialButton extends StatelessWidget {
   const SocialButton({Key? key, required this.social}) : super(key: key);
 
@@ -24,8 +22,8 @@ class SocialButton extends StatelessWidget {
           children: <Widget>[
             Image.asset(
               'assets/$social.png',
-              width: 40,
-              height: 40,
+              width: 40, // Adjusted size
+              height: 40, // Adjusted size
             ),
             Text(
               social.toUpperCase(),
